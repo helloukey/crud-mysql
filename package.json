@@ -4,7 +4,12 @@
   "description": "Full Stack CRUD App with MySQL.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "client": "cd client && npm install",
+    "server": "cd server && npm install",
+    "start-client": "cd client && npm run preview",
+    "start-client-dev": "cd client && npm run dev",
+    "start-server": "cd server && node index.js",
+    "start-server-dev": "cd server && nodemon index.js"
   },
   "author": "",
   "license": "ISC"
